@@ -11,7 +11,9 @@ def hello():
 # Database connection config
 db = pymysql.connect(
     host="localhost",
-    database="mydatabase"
+    database="mydatabase",
+    user="flask_user",
+    password="flask_pass"
 )
 
 @app.route("/test/", methods=["GET", "POST"])
