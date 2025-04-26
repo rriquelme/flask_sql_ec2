@@ -34,7 +34,7 @@ CREATE TABLE users (
     email VARCHAR(100)
 );
 CREATE USER 'flask_user'@'localhost' IDENTIFIED BY 'flask_pass';
-GRANT ALL PRIVILEGES ON mydatabase.* to 'flask_user'@'localhost';
+GRANT ALL PRIVILEGES ON my_database.* to 'flask_user'@'localhost';
 FLUSH PRIVILEGES;
 EOF
 

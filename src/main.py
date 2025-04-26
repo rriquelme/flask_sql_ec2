@@ -11,7 +11,7 @@ def hello():
 # Database connection config
 db = pymysql.connect(
     host="localhost",
-    database="mydatabase",
+    database="my_database",
     user="flask_user",
     password="flask_pass"
 )
